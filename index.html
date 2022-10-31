@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <meta name="description" content="Landing Page using FlexBox" />
+    <meta name="keywords" content="HTML, CSS, JavaScript and CSS Grid" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/icons/site.webmanifest" />
+
+    <meta name="author" content="Joar Penaflorida" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Sneaker Head | Grid</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header row" id="header">
+        <div class="header--left">
+          <h2 class="logo">Sneaker Head</h2>
+        </div>
+        <div class="header--right">
+          <i class="bx bx-menu nav-toggle"></i>
+          <div class="nav-links">
+            <ul>
+              <li><a href="#featured">Featured</a></li>
+              <li><a href="#latest">Latest</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="cards">
+          <div class="card">
+            <div class="video-container">
+              <div class="js-video-toggle video-toggle">
+                <i class="bx bx-play play"></i>
+                <i class="bx bx-pause pause"></i>
+              </div>
+              <video
+                src="./assets/video/promotional.mp4"
+                autoplay
+                loop
+                muted
+                class="video-promo"
+              ></video>
+            </div>
+          </div>
+          <div class="card gold">
+            <div class="cta-container">
+              <a href="#" class="cta">Go Shopping</a>
+              <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </div>
+        </div>
+        <h2 class="subtitle" id="featured">Featured</h2>
+
+        <div class="cards">
+          <div class="feature-card">
+            <img src="./assets/images/featured.jpeg" alt="" />
+            <div class="feature-card-description">
+              <h2>Men</h2>
+              <a href="#">Shop</a>
+            </div>
+          </div>
+          <div class="feature-card">
+            <img src="./assets/images/featured2.jpeg" alt="" />
+            <div class="feature-card-description">
+              <h2>Women</h2>
+              <a href="#">Shop</a>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="subtitle" id="latest">Latest</h2>
+        <div class="cards">
+          <div class="latest-card">
+            <img src="./assets/images/latest.jpeg" alt="" />
+            <span class="new">New</span>
+            <div class="card-description">
+              <h3 class="title">Jordan Series 06</h3>
+              <span class="price">₱4,495</span>
+            </div>
+          </div>
+          <div class="latest-card">
+            <img src="./assets/images/latest1.jpeg" alt="" />
+            <span class="new">New</span>
+            <div class="card-description">
+              <h3 class="title">Nike Revolution 6</h3>
+              <span class="price">₱3,795</span>
+            </div>
+          </div>
+          <div class="latest-card">
+            <img src="./assets/images/latest2.jpeg" alt="" />
+            <span class="new">New</span>
+            <div class="card-description">
+              <h3 class="title">Retro High OG</h3>
+              <span class="price">₱2,495</span>
+            </div>
+          </div>
+          <div class="latest-card">
+            <img src="./assets/images/latest3.jpeg" alt="" />
+            <span class="hot">Hot</span>
+            <div class="card-description">
+              <h3 class="title">Nike x MMW 005</h3>
+              <span class="price">₱8,795</span>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-cards">
+          <div class="footer-card">
+            <h4>SNEAKER HEAD</h4>
+            <p>Connecting sneaker enthusiasts</p>
+            <strong>Be Bold.</strong>
+            <div class="contacts">
+              <i class="bx bxl-facebook"></i>
+              <i class="bx bxl-instagram"></i>
+              <i class="bx bxl-twitter"></i>
+            </div>
+          </div>
+
+          <div class="footer-card">
+            <p class="title">Explore</p>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Capabilities</a>
+            <a href="#">Careers</a>
+          </div>
+
+          <div class="footer-card">
+            <p class="title">Legal</p>
+            <a href="">Terms</a>
+            <a href="">Privacy</a>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>&copy; Sneaker Head, All Rights Reserved</p>
+        </div>
+      </footer>
+    </div>
+    <a class="top" href="#header">
+      <i class="bx bx-chevron-up"></i>
+    </a>
+    <div class="cursor"></div>
+    <div class="cursor-round"></div>
+    <div class="cursor-outer"></div>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
